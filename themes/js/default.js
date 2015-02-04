@@ -2,13 +2,13 @@
 $('#ourServices .thumbnail').mouseenter(function() {
 $(this).css('background-color','#FE5214');
   $(this).animate({
-   opacity:1
+   opacity:2
   }, 200, function() {
     // Animation complete.
   });
 });
 $('#ourServices .thumbnail').mouseleave(function() {
-$(this).css('background-color','#ffffff');
+$(this).css('background-color','#FFF');
   $(this).animate({
     opacity:0.8
  
